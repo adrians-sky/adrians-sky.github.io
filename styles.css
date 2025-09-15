@@ -1,8 +1,20 @@
 /* Website Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Micro+5&family=Pixelify+Sans:wght@400..700&display=swap");
 
+/* Website Icons */
+.material-symbols-outlined {
+    color: #6B98D0;
+    font-size: 16px !important;
+}
+
 html {
     height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background: #E4F1F7;
 }
 
 h1 {
@@ -16,7 +28,7 @@ p {
 
 header {
     width: 100%;
-    margin: 3rem 0 2rem 0;
+    margin: 3rem 0 1rem 0;
 }
 
 nav ul {
@@ -49,11 +61,14 @@ nav ul {
 }
 
 .page {
-    width: 60%;
+    width: 50%;
+    height: 100%;
+    padding: 0 5rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #FFF;
 }
 
 footer {
@@ -86,6 +101,8 @@ footer {
 }
 
 .inline-link {
+    display: inline-flex;
+    align-items: center;
     color: #6B9BD0;
     font-weight: bold;
     text-decoration: none;
@@ -93,10 +110,6 @@ footer {
 
 .inline-link:visited {
     color: #6B9BD0;
-}
-
-.inline-link:hover {
-    text-decoration: underline;
 }
 
 .home-main {
