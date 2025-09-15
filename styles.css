@@ -1,112 +1,107 @@
 /* Website Fonts */
-@import url("https://fonts.googleapis.com/css2?family=ubuntu+mono");
+@import url("https://fonts.googleapis.com/css2?family=Micro+5&family=Pixelify+Sans:wght@400..700&display=swap");
 
-/* Global Styles */
-html
-{
+html {
     height: 100%;
-    background-color: #101010;
-    font-family: "Ubuntu Mono", monospace;
-    font-size: 16px;
-    color: #FFFFFF;
 }
 
-body
-{
-    min-height: 100%;
-    margin: 0;
+h1 {
+    font-family: "Micro 5", sans-serif;
 }
 
-h1
-{
-    margin: 0;
-    font-size: 1.25rem;
+p {
+    font-family: Calibri, sans-serif;
+    color: #444;
 }
 
-p
-{
-    font-size: 0.857rem;
-}
-
-ul li
-{
-    font-size: 0.857rem;
-}
-
-a
-{
-    color: #FFFFFF;
-}
-
-a:hover
-{
-    color: #CCCCCC;
-}
-
-/* List */
-nav ul
-{
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    overflow: hidden;
-    gap: 1.5rem;
-}
-
-nav ul li
-{
-    font-size: 1rem;
-}
-
-/* Layout */
-header
-{
+header {
     width: 100%;
-    height: 100%;
-    padding: 1.25rem 0;
+    margin: 3rem 0 2rem 0;
 }
 
-main
-{
+nav ul {
     height: 100%;
-    display: grid;
-    grid-gap: 0.5rem;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 1rem 10rem;
-}
-
-ul
-{
     margin: 0;
-    padding: 0 1rem;
+    padding: 0.35rem 0;
+    display: flex;
+    list-style-type: none;
+    background: #E4F1F7;
+    border-radius: 2px;
 }
 
-
-
-/* Navigation */
-nav li
-{
-    float: left;
-}
-
-nav li a
-{
-    display: inline-block;
+.nav-link {
+    padding: 0.35rem 1rem;
+    font-family: "Pixelify Sans", sans-serif;
     text-decoration: none;
+    background: none;
+    color: #000000;
+    border-right: 3px solid #FFFFFF;
+}
+
+.nav-link:hover {
+    background: #A3C1DA;
     color: #FFFFFF;
 }
 
-/* Page: Homepage */
-
-#home_intro
-{
-    grid-column: 1 / span 4;
+.nav-current {
+    background: #A3C1DA;
+    color: #FFFFFF;
 }
 
-.home_section
-{
-    padding: 0.75rem;
-    border: 4px solid #FFFFFF;
+.page {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+}
+
+.header-link:visited {
+    color: #FFF;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+}
+
+.section-title {
+    padding: 0.175rem 0 0.175rem 1rem;
+    background: #6B9BD0;
+    border-radius: 2px;
+    font-size: 1.375rem;
+}
+
+.inline-link {
+    color: #6B9BD0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.inline-link:visited {
+    color: #6B9BD0;
+}
+
+.inline-link:hover {
+    text-decoration: underline;
+}
+
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-templatae-rows: 1fr 1fr 1fr;
+    column-gap: 1.5rem;
 }
