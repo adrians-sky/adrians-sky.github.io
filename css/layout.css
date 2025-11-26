@@ -34,7 +34,7 @@ body {
     padding: 2rem;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
     grid-template-areas:
     "nav"
     "main"
@@ -51,8 +51,9 @@ nav {
 }
 
 #hero {
+    height: fit-content;
     grid-area: hero;
-    padding: 0 1.5rem 1.5rem;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -62,7 +63,7 @@ nav {
 
 main {
     grid-area: main;
-    padding: 1.5rem;
+    padding: 2rem 0;
     font-family: var(--sans-font);
 }
 
@@ -138,6 +139,7 @@ article footer {
     }
     
     main {
+        padding: 1.5rem;
         overflow: scroll;
     }
 
@@ -146,7 +148,7 @@ article footer {
     }
 
     #hero {
-        padding: 0;
+        height: 100%;
     }
 
     #hero-def {
