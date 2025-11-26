@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&');
+
+/***************
+ Global Styles
+***************/
+
+:root {
+    --text-color: #FFFFFF;
+    --serif-font: "Noto Serif", serif;
+}
+
+
+/*****************
+ Element Padding
+*****************/
+
+body {
+    padding: 0;
+}
+
+nav {
+    padding: 2rem 2rem 0 2rem;
+}
+
+#hero {
+    padding: 0 2rem 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+/************
+ Home Image
+************/
+
+#home-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#home-img-caption {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#home-img-caption span {
+    margin: 0.5rem 0;
+    font-size: 0.875rem;
+    font-family: var(--serif-font);
+}
+
+
+/****************
+ Tablet Styling
+****************/
+
+@media (min-width: 35em) {
+    #hero {
+        padding: 0 0 2rem 2rem;
+    }
+
+    #home-img {
+        width: 90%;
+        height: 90%;
+    }
+
+    #home-img-caption {
+        width: 90%;
+    }
+}
+
+
+/*****************
+ Desktop Styling
+*****************/
+
+@media (min-width: 56em) {
+    nav {
+        padding: 2rem 0 0 2rem;
+    }
+
+    main {
+        padding: 0 2rem 0 0;
+        align-items: flex-end;
+    }
+
+    #home-img {
+        width: 80%;
+    }
+
+    #home-img-caption {
+        width: 80%;
+    }
+}
