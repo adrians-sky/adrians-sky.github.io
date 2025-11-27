@@ -17,10 +17,19 @@
     color: var(--text-color);
 }
 
+*::selection {
+    color: var(--bg-color);
+    background: var(--text-color);
+}
+
 html {
     height: 100%;
     background: var(--bg-color);
     font-family: var(--serif-font);
+}
+
+a:hover {
+    color: var(--hover-color);
 }
 
 
@@ -47,7 +56,6 @@ nav {
     display: flex;
     justify-content: center;
     background: var(--bg-color);
-    user-select: none;
 }
 
 #hero {
@@ -58,7 +66,6 @@ nav {
     flex-direction: column;
     justify-content: flex-end;
     background: var(--bg-color);
-    user-select: none;
 }
 
 main {
@@ -81,10 +88,6 @@ nav ul {
 nav ul li {
     margin: 0 1rem 0 0;
     float: left;
-}
-
-nav ul li a:hover {
-    color: var(--hover-color);
 }
 
 
