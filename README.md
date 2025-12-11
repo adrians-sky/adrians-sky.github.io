@@ -17,9 +17,13 @@ My personal, "not boring" portfolio and personal blog
 
 ---
 
-# About
-
 # Lighthouse Insights
+
+![Google Lighthouse Report](public/lighthouse_report.png)
+
+> Generated on December 11, 2025 using Google Chrome.
+
+# About
 
 # Sections
 
@@ -36,4 +40,4 @@ All photos are taken by me.
 
 # License
 
-This project is available as open source under the [MIT License](LICENSE.MD).
+This project is available as open source under the [MIT License](LICENSE).
