@@ -59,6 +59,7 @@ performance improvements using Google Lighthouse.
 | Tool/Technology | Purpose |
 |---|---|
 | [Google Fonts](https://fonts.google.com/) | Free, Open Source Fonts |
+| [Iconoir](https://iconoir.com/) | Free, Open Source Icons |
 | [Porter Robinson's Nurture](https://music.youtube.com/playlist?list=OLAK5uy_ndpLYk1Pz5pO8uFoVPcSH_UVAoZFM5QII) | Aesthetics and Design Inspiration |
 
 # Credits
