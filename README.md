@@ -21,7 +21,7 @@ My personal, "not boring" portfolio and personal blog
 
 ![Google Lighthouse Report](public/lighthouse_report.png)
 
-> Generated on December 11, 2025 using Google Chrome.
+> Generated on September 14, 2026 using Google Chrome.
 
 # About
 
